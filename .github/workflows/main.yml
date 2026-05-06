@@ -34,7 +34,7 @@ jobs:
           location: canadacentral
           scope: subscription
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          parameters-file: ./main.bicepparam
+          parameters-file: ./summit.main.bicepparam
           action-on-unmanage-resources: delete
           action-on-unmanage-resourcegroups: delete
           deny-settings-mode: denyWriteAndDelete
