@@ -36,4 +36,5 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           parameters-file: ./summit/main.bicepparam
           action-on-unmanage-resources: delete
+          deny-settings-mode: none
           description: "Development Environment"
